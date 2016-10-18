@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5BBEC341DB649A70044FD13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBEC331DB649A70044FD13 /* AppDelegate.swift */; };
+		D5BBEC361DB649A70044FD13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBEC351DB649A70044FD13 /* ViewController.swift */; };
+		D5BBEC391DB649A70044FD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBEC371DB649A70044FD13 /* Main.storyboard */; };
+		D5BBEC3B1DB649A70044FD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BBEC3A1DB649A70044FD13 /* Assets.xcassets */; };
+		D5BBEC3E1DB649A70044FD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBEC3C1DB649A70044FD13 /* LaunchScreen.storyboard */; };
+		D5BBEC491DB649A80044FD13 /* InkeTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBEC481DB649A80044FD13 /* InkeTVTests.swift */; };
+		D5BBEC541DB649A80044FD13 /* InkeTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBEC531DB649A80044FD13 /* InkeTVUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5BBEC451DB649A80044FD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5BBEC281DB649A70044FD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5BBEC2F1DB649A70044FD13;
+			remoteInfo = InkeTV;
+		};
+		D5BBEC501DB649A80044FD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5BBEC281DB649A70044FD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5BBEC2F1DB649A70044FD13;
+			remoteInfo = InkeTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5BBEC301DB649A70044FD13 /* InkeTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InkeTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BBEC331DB649A70044FD13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5BBEC351DB649A70044FD13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5BBEC381DB649A70044FD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5BBEC3A1DB649A70044FD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5BBEC3D1DB649A70044FD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5BBEC3F1DB649A70044FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BBEC441DB649A80044FD13 /* InkeTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkeTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BBEC481DB649A80044FD13 /* InkeTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkeTVTests.swift; sourceTree = "<group>"; };
+		D5BBEC4A1DB649A80044FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BBEC4F1DB649A80044FD13 /* InkeTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InkeTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BBEC531DB649A80044FD13 /* InkeTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkeTVUITests.swift; sourceTree = "<group>"; };
+		D5BBEC551DB649A80044FD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5BBEC2D1DB649A70044FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BBEC411DB649A80044FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BBEC4C1DB649A80044FD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5BBEC271DB649A70044FD13 = {
+			isa = PBXGroup;
+			children = (
+				D5BBEC321DB649A70044FD13 /* InkeTV */,
+				D5BBEC471DB649A80044FD13 /* InkeTVTests */,
+				D5BBEC521DB649A80044FD13 /* InkeTVUITests */,
+				D5BBEC311DB649A70044FD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5BBEC311DB649A70044FD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBEC301DB649A70044FD13 /* InkeTV.app */,
+				D5BBEC441DB649A80044FD13 /* InkeTVTests.xctest */,
+				D5BBEC4F1DB649A80044FD13 /* InkeTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5BBEC321DB649A70044FD13 /* InkeTV */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBEC331DB649A70044FD13 /* AppDelegate.swift */,
+				D5BBEC351DB649A70044FD13 /* ViewController.swift */,
+				D5BBEC371DB649A70044FD13 /* Main.storyboard */,
+				D5BBEC3A1DB649A70044FD13 /* Assets.xcassets */,
+				D5BBEC3C1DB649A70044FD13 /* LaunchScreen.storyboard */,
+				D5BBEC3F1DB649A70044FD13 /* Info.plist */,
+			);
+			path = InkeTV;
+			sourceTree = "<group>";
+		};
+		D5BBEC471DB649A80044FD13 /* InkeTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBEC481DB649A80044FD13 /* InkeTVTests.swift */,
+				D5BBEC4A1DB649A80044FD13 /* Info.plist */,
+			);
+			path = InkeTVTests;
+			sourceTree = "<group>";
+		};
+		D5BBEC521DB649A80044FD13 /* InkeTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBEC531DB649A80044FD13 /* InkeTVUITests.swift */,
+				D5BBEC551DB649A80044FD13 /* Info.plist */,
+			);
+			path = InkeTVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5BBEC2F1DB649A70044FD13 /* InkeTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BBEC581DB649A80044FD13 /* Build configuration list for PBXNativeTarget "InkeTV" */;
+			buildPhases = (
+				D5BBEC2C1DB649A70044FD13 /* Sources */,
+				D5BBEC2D1DB649A70044FD13 /* Frameworks */,
+				D5BBEC2E1DB649A70044FD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InkeTV;
+			productName = InkeTV;
+			productReference = D5BBEC301DB649A70044FD13 /* InkeTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5BBEC431DB649A80044FD13 /* InkeTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BBEC5B1DB649A80044FD13 /* Build configuration list for PBXNativeTarget "InkeTVTests" */;
+			buildPhases = (
+				D5BBEC401DB649A80044FD13 /* Sources */,
+				D5BBEC411DB649A80044FD13 /* Frameworks */,
+				D5BBEC421DB649A80044FD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5BBEC461DB649A80044FD13 /* PBXTargetDependency */,
+			);
+			name = InkeTVTests;
+			productName = InkeTVTests;
+			productReference = D5BBEC441DB649A80044FD13 /* InkeTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5BBEC4E1DB649A80044FD13 /* InkeTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BBEC5E1DB649A80044FD13 /* Build configuration list for PBXNativeTarget "InkeTVUITests" */;
+			buildPhases = (
+				D5BBEC4B1DB649A80044FD13 /* Sources */,
+				D5BBEC4C1DB649A80044FD13 /* Frameworks */,
+				D5BBEC4D1DB649A80044FD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5BBEC511DB649A80044FD13 /* PBXTargetDependency */,
+			);
+			name = InkeTVUITests;
+			productName = InkeTVUITests;
+			productReference = D5BBEC4F1DB649A80044FD13 /* InkeTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5BBEC281DB649A70044FD13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = YaronYang;
+				TargetAttributes = {
+					D5BBEC2F1DB649A70044FD13 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22SN77Z9P3;
+						ProvisioningStyle = Automatic;
+					};
+					D5BBEC431DB649A80044FD13 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22SN77Z9P3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5BBEC2F1DB649A70044FD13;
+					};
+					D5BBEC4E1DB649A80044FD13 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22SN77Z9P3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5BBEC2F1DB649A70044FD13;
+					};
+				};
+			};
+			buildConfigurationList = D5BBEC2B1DB649A70044FD13 /* Build configuration list for PBXProject "InkeTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5BBEC271DB649A70044FD13;
+			productRefGroup = D5BBEC311DB649A70044FD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5BBEC2F1DB649A70044FD13 /* InkeTV */,
+				D5BBEC431DB649A80044FD13 /* InkeTVTests */,
+				D5BBEC4E1DB649A80044FD13 /* InkeTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5BBEC2E1DB649A70044FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BBEC3E1DB649A70044FD13 /* LaunchScreen.storyboard in Resources */,
+				D5BBEC3B1DB649A70044FD13 /* Assets.xcassets in Resources */,
+				D5BBEC391DB649A70044FD13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BBEC421DB649A80044FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BBEC4D1DB649A80044FD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5BBEC2C1DB649A70044FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BBEC361DB649A70044FD13 /* ViewController.swift in Sources */,
+				D5BBEC341DB649A70044FD13 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BBEC401DB649A80044FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BBEC491DB649A80044FD13 /* InkeTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BBEC4B1DB649A80044FD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BBEC541DB649A80044FD13 /* InkeTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5BBEC461DB649A80044FD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5BBEC2F1DB649A70044FD13 /* InkeTV */;
+			targetProxy = D5BBEC451DB649A80044FD13 /* PBXContainerItemProxy */;
+		};
+		D5BBEC511DB649A80044FD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5BBEC2F1DB649A70044FD13 /* InkeTV */;
+			targetProxy = D5BBEC501DB649A80044FD13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5BBEC371DB649A70044FD13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BBEC381DB649A70044FD13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5BBEC3C1DB649A70044FD13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5BBEC3D1DB649A70044FD13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5BBEC561DB649A80044FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5BBEC571DB649A80044FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5BBEC591DB649A80044FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22SN77Z9P3;
+				INFOPLIST_FILE = InkeTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yaronyang.InkeTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D5BBEC5A1DB649A80044FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 22SN77Z9P3;
+				INFOPLIST_FILE = InkeTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yaronyang.InkeTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D5BBEC5C1DB649A80044FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22SN77Z9P3;
+				INFOPLIST_FILE = InkeTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yaronyang.InkeTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkeTV.app/InkeTV";
+			};
+			name = Debug;
+		};
+		D5BBEC5D1DB649A80044FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22SN77Z9P3;
+				INFOPLIST_FILE = InkeTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yaronyang.InkeTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InkeTV.app/InkeTV";
+			};
+			name = Release;
+		};
+		D5BBEC5F1DB649A80044FD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22SN77Z9P3;
+				INFOPLIST_FILE = InkeTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yaronyang.InkeTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InkeTV;
+			};
+			name = Debug;
+		};
+		D5BBEC601DB649A80044FD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 22SN77Z9P3;
+				INFOPLIST_FILE = InkeTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yaronyang.InkeTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = InkeTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5BBEC2B1DB649A70044FD13 /* Build configuration list for PBXProject "InkeTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BBEC561DB649A80044FD13 /* Debug */,
+				D5BBEC571DB649A80044FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BBEC581DB649A80044FD13 /* Build configuration list for PBXNativeTarget "InkeTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BBEC591DB649A80044FD13 /* Debug */,
+				D5BBEC5A1DB649A80044FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5BBEC5B1DB649A80044FD13 /* Build configuration list for PBXNativeTarget "InkeTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BBEC5C1DB649A80044FD13 /* Debug */,
+				D5BBEC5D1DB649A80044FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5BBEC5E1DB649A80044FD13 /* Build configuration list for PBXNativeTarget "InkeTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BBEC5F1DB649A80044FD13 /* Debug */,
+				D5BBEC601DB649A80044FD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5BBEC281DB649A70044FD13 /* Project object */;
+}
